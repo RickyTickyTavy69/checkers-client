@@ -1,0 +1,8 @@
+.whiteDame{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #de07a5;
+    border-radius: 35px;
+    cursor: pointer;
+}

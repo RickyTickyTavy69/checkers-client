@@ -1,38 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainContent{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+}
+
+
+/**********************************************/
+
+.board {
+  width: calc(64px * 8);
+  height: calc(64px * 8);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  height: 64px;
+  width: 64px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.black {
+  background-color: rgb(80, 11, 47);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*if this cell is chosen*/
+
+.white {
+  background-color: rgb(238, 156, 156);
+}
+
+.black.clicked {
+  background-color: rgb(150, 21, 92);
+}
+
+.black.markMove {
+  cursor: pointer;
+  background-color: rgb(51, 150, 21);
 }

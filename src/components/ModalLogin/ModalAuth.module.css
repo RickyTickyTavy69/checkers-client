@@ -1,0 +1,67 @@
+.modalWindow{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 100;
+    border: 4px solid red;
+    background-color: #e792b4;
+}
+
+.authForm{
+    text-align: center;
+}
+
+.title{
+    margin: 2vh 0 2vh 0;
+}
+
+.authForm p{
+    margin: 0 0 2vh 0;
+}
+
+.inputField{
+    margin: 0 0 2vh 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fields{
+    display: flex;
+    gap: 6px;
+}
+
+.buttons{
+    justify-content: space-around;
+    display: flex;
+    margin: 0 0 3vh 0;
+}
+
+.chooseMethod{
+    justify-content: space-around;
+    display: flex;
+    margin: 0 0 3vh 0;
+}
+
+.chooseMethod button{
+    padding: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

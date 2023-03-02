@@ -1,0 +1,47 @@
+.profile{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 15px;
+}
+
+.avatarContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.onlineStatus{
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-color: green;
+    border-radius: 35px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.username{
+    color: purple;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.buttons button{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

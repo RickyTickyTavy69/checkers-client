@@ -1,0 +1,8 @@
+.blackDame{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #a107de;
+    border-radius: 35px;
+    cursor: pointer;
+}
